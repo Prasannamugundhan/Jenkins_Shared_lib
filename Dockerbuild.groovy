@@ -1,3 +1,3 @@
 def call(Map stageParams){
-    sh 'docker build -t jenshrd/latest .'
+sh 'docker build -t jenshrd/latest .'
 }
